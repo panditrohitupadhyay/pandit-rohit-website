@@ -44,6 +44,37 @@ footer{background:#3d1e08;color:white;text-align:center;padding:25px}
 .promo-banner{padding:18px 12px;background:linear-gradient(180deg,#fff7df,#ffe8b0);text-align:center}.promo-banner img{width:min(100%,1800px);height:auto;display:block;margin:0 auto;border-radius:22px;box-shadow:0 10px 35px rgba(80,20,0,.28)}.promo-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:14px}.promo-actions a{display:inline-block;padding:13px 22px;border-radius:999px;text-decoration:none;font-weight:800;color:#fff;box-shadow:0 5px 15px rgba(0,0,0,.16)}.promo-call{background:#8b1e13}.promo-wa{background:#168a45}.promo-pay{background:#5d28a9}
 .online-process{background:linear-gradient(135deg,#fff7df,#ffe6ad);border:2px solid #e0a52b;border-radius:24px;margin:25px auto;padding:24px;max-width:1100px;box-shadow:0 10px 28px #5b2b0018}.online-process h2{text-align:center;color:#8b1e13;margin-top:0}.online-process .item{background:#fffdf5;border-color:#d7a52d}
 </style>
+
+<style>
+.rhx-wrap{max-width:1180px;margin:0 auto;padding:18px}
+.rhx-title{text-align:center;margin:8px 0 22px}
+.rhx-title h2{font-size:clamp(28px,4vw,44px);margin:0;color:#7b2d12}
+.rhx-title p{margin:8px auto;max-width:780px;color:#6b4a36;line-height:1.6}
+.rhx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.rhx-card{background:linear-gradient(145deg,#fffdf6,#fff2cf);border:1px solid #e3b95f;border-radius:20px;padding:20px;box-shadow:0 8px 25px rgba(85,42,8,.12);transition:.2s}
+.rhx-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(85,42,8,.18)}
+.rhx-card h3{margin:0 0 9px;color:#7b2d12}
+.rhx-card p{margin:0 0 13px;line-height:1.55;color:#5f4636}
+.rhx-pill{display:inline-block;background:#7b2d12;color:#fff;padding:7px 11px;border-radius:999px;font-size:13px}
+.rhx-section{margin:34px 0}
+.rhx-kundli{background:linear-gradient(135deg,#fff8e8,#fbe4ad);border:2px solid #d9a441;border-radius:24px;padding:22px;box-shadow:0 12px 35px rgba(72,35,0,.14)}
+.rhx-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:13px}
+.rhx-form label{font-weight:700;color:#5e351c}
+.rhx-form input,.rhx-form select{width:100%;box-sizing:border-box;margin-top:6px;padding:12px;border:1px solid #d5b26a;border-radius:12px;background:#fff}
+.rhx-btn{display:inline-block;border:0;border-radius:999px;padding:12px 18px;background:#7b2d12;color:#fff;font-weight:700;text-decoration:none;cursor:pointer}
+.rhx-btn.alt{background:#4b148c}
+.rhx-note{font-size:13px;color:#765a43;margin-top:10px;line-height:1.5}
+.rhx-books{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.rhx-book{padding:16px;border-radius:16px;background:#fff;border:1px solid #e6c978}
+.rhx-book b{color:#7b2d12}
+.rhx-nav{position:sticky;top:0;z-index:50;background:rgba(255,248,232,.96);backdrop-filter:blur(8px);border-bottom:1px solid #e1bf68}
+.rhx-navin{max-width:1180px;margin:auto;display:flex;gap:8px;overflow:auto;padding:9px 12px}
+.rhx-nav a{white-space:nowrap;text-decoration:none;color:#6b2b12;font-weight:700;padding:8px 12px;border-radius:999px}
+.rhx-nav a:hover{background:#f1d78e}
+.rhx-faq details{background:#fff;border:1px solid #e4c879;border-radius:14px;padding:13px 16px;margin:9px 0}
+.rhx-faq summary{font-weight:700;color:#6f2c13;cursor:pointer}
+</style>
+
 </head>
 <body>
 
@@ -218,64 +249,6 @@ footer{background:#3d1e08;color:white;text-align:center;padding:25px}
 </div>
 </section>
 
-
-<style>
-.kundli-wrap{max-width:1000px;margin:30px auto;padding:28px;border-radius:24px;background:linear-gradient(135deg,#fff8ee,#fffdf8);box-shadow:0 10px 35px rgba(80,35,0,.12);border:1px solid #ead6bd}
-.kundli-wrap h2{text-align:center;color:#7b3f00;margin:0 0 8px;font-size:30px}
-.kundli-sub{text-align:center;color:#6b5a4b;margin:0 0 22px}
-.kundli-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.kundli-field{display:flex;flex-direction:column;gap:6px}
-.kundli-field.full{grid-column:1/-1}
-.kundli-field label{font-weight:700;color:#5c3000}
-.kundli-field input,.kundli-field select{padding:13px 14px;border:1px solid #d9c2a7;border-radius:12px;font-size:16px;background:#fff}
-.kundli-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px;justify-content:center}
-.kundli-btn{border:0;border-radius:12px;padding:13px 20px;font-weight:800;font-size:16px;cursor:pointer;text-decoration:none;display:inline-block}
-.kundli-primary{background:#8b4a08;color:#fff}.kundli-gold{background:#d99b2b;color:#fff}.kundli-light{background:#f4eadb;color:#6a3700}
-.kundli-result{display:none;margin-top:22px;padding:20px;border-radius:16px;background:#fff;border:1px solid #e6d4bd}
-.kundli-result h3{color:#7b3f00;margin-top:0}.kundli-info{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.kundli-info div{padding:10px;background:#fff8ee;border-radius:10px}
-.kundli-note{font-size:13px;color:#6c6258;margin-top:14px;line-height:1.5}
-.kundli-price{font-size:26px;font-weight:900;color:#a34f00;text-align:center;margin:12px 0}
-@media(max-width:650px){.kundli-grid,.kundli-info{grid-template-columns:1fr}.kundli-wrap{margin:20px 10px;padding:18px}.kundli-wrap h2{font-size:24px}}
-</style>
-
-<section id="kundli" class="kundli-wrap">
-<h2>🔱 ऑनलाइन जन्म कुंडली बनाएं</h2>
-<p class="kundli-sub">जन्म तारीख, समय और जन्म स्थान भरें और अपनी कुंडली सेवा के लिए विवरण भेजें।</p>
-<form id="kundliForm" onsubmit="generateKundliOrder(event)">
-<div class="kundli-grid">
-<div class="kundli-field"><label>नाम *</label><input id="kname" required placeholder="अपना पूरा नाम"></div>
-<div class="kundli-field"><label>लिंग *</label><select id="kgender" required><option value="">चुनें</option><option>पुरुष</option><option>महिला</option><option>अन्य</option></select></div>
-<div class="kundli-field"><label>जन्म तारीख *</label><input id="kdate" type="date" required></div>
-<div class="kundli-field"><label>जन्म समय *</label><input id="ktime" type="time" required></div>
-<div class="kundli-field full"><label>जन्म स्थान *</label><input id="kplace" required placeholder="जैसे: वृंदावन, मथुरा, उत्तर प्रदेश"></div>
-</div>
-<div class="kundli-actions">
-<button class="kundli-btn kundli-primary" type="submit">🔮 कुंडली विवरण तैयार करें</button>
-<button class="kundli-btn kundli-light" type="button" onclick="document.getElementById('kundliForm').reset();document.getElementById('kundliResult').style.display='none'">↺ साफ करें</button>
-</div>
-</form>
-
-<div id="kundliResult" class="kundli-result">
-<h3>📜 जन्म कुंडली सेवा विवरण</h3>
-<div class="kundli-info">
-<div><b>नाम:</b> <span id="rname"></span></div>
-<div><b>लिंग:</b> <span id="rgender"></span></div>
-<div><b>जन्म तारीख:</b> <span id="rdate"></span></div>
-<div><b>जन्म समय:</b> <span id="rtime"></span></div>
-<div><b>जन्म स्थान:</b> <span id="rplace"></span></div>
-<div><b>सेवा:</b> पूर्ण पेपर जन्म कुंडली</div>
-</div>
-<div class="kundli-price">💰 शुल्क: ₹299</div>
-<p class="kundli-note">₹299 पेपर कुंडली सेवा के लिए ऊपर दिए जन्म विवरण के साथ WhatsApp पर अनुरोध भेजें। भुगतान के बाद पंडित जी से रिपोर्ट तैयार/भेजने की पुष्टि करें। ग्रहों की सटीक गणना के लिए वेबसाइट में प्रमाणित ज्योतिष गणना API जोड़ना आवश्यक है; अभी यह फॉर्म सही जन्म विवरण लेकर ऑर्डर तैयार करता है।</p>
-<div class="kundli-actions">
-<a class="kundli-btn kundli-gold" id="kundliWa" target="_blank">📲 WhatsApp पर ₹299 कुंडली बुक करें</a>
-<a class="kundli-btn kundli-light" href="#payment">💳 भुगतान विकल्प देखें</a>
-<button class="kundli-btn kundli-light" type="button" onclick="window.print()">🖨️ प्रिंट करें</button>
-</div>
-</div>
-</section>
-
-<div id="payment"></div>
 <section>
 <h2>संपर्क करें</h2>
 <p><b>मोबाइल:</b> 8864866744, 9053131911</p>
@@ -297,29 +270,139 @@ function sendBooking(e){
  const msg=`नमस्ते पंडित जी 🙏\nमुझे ऑनलाइन बुकिंग करनी है।\n\nनाम: ${n}\nमोबाइल: ${ph}\nसेवा का प्रकार: ${type}\nसेवा/यात्रा: ${service}\nपसंदीदा तारीख: ${date}\nयात्रियों की संख्या: ${people}\nअतिरिक्त जानकारी: ${note}`;
  window.open('https://wa.me/918864866744?text='+encodeURIComponent(msg),'_blank');
 }
-
-function generateKundliOrder(e){
- e.preventDefault();
- const name=document.getElementById('kname').value.trim();
- const gender=document.getElementById('kgender').value;
- const date=document.getElementById('kdate').value;
- const time=document.getElementById('ktime').value;
- const place=document.getElementById('kplace').value.trim();
- const [y,m,d]=date.split('-');
- const prettyDate=`${d}-${m}-${y}`;
- document.getElementById('rname').textContent=name;
- document.getElementById('rgender').textContent=gender;
- document.getElementById('rdate').textContent=prettyDate;
- document.getElementById('rtime').textContent=time;
- document.getElementById('rplace').textContent=place;
- const msg=`नमस्ते पंडित जी 🙏\nमुझे ₹299 की पेपर जन्म कुंडली बनवानी है।\n\nनाम: ${name}\nलिंग: ${gender}\nजन्म तारीख: ${prettyDate}\nजन्म समय: ${time}\nजन्म स्थान: ${place}\n\nकृपया भुगतान और कुंडली रिपोर्ट की प्रक्रिया बताएं।`;
- document.getElementById('kundliWa').href='https://wa.me/918864866744?text='+encodeURIComponent(msg);
- const result=document.getElementById('kundliResult');
- result.style.display='block';
- result.scrollIntoView({behavior:'smooth',block:'center'});
-}
 </script>
 <a class="sticky-wa" href="https://wa.me/918864866744?text=Namaste%20Pandit%20Ji,%20mujhe%20online%20booking%20karni%20hai.%20Kripya%20jaankari%20den." target="_blank">💳 Online Booking & Payment</a>
+
+
+<div class="rhx-nav">
+  <div class="rhx-navin">
+    <a href="#rhx-seva">सभी सेवाएँ</a>
+    <a href="#rhx-kundli">कुंडली</a>
+    <a href="#rhx-panchang">पंचांग</a>
+    <a href="#rhx-granth">धार्मिक पुस्तकें</a>
+    <a href="#rhx-ved">वेद</a>
+    <a href="#rhx-shastra">शास्त्र</a>
+    <a href="#rhx-booking">बुकिंग</a>
+  </div>
+</div>
+
+<section id="rhx-seva" class="rhx-section rhx-wrap">
+  <div class="rhx-title">
+    <h2>🕉️ संपूर्ण सनातन धर्म एवं ज्योतिष सेवा</h2>
+    <p>एक ही स्थान पर ज्योतिष, जन्म कुंडली, पंचांग, पूजा-पाठ, धार्मिक ग्रंथ, वेद-शास्त्र, संस्कार और धार्मिक यात्रा से जुड़ी सुविधाएँ।</p>
+  </div>
+  <div class="rhx-grid">
+    <div class="rhx-card"><h3>🔮 जन्म कुंडली</h3><p>जन्म विवरण लेकर कुंडली परामर्श, ग्रह-भाव जानकारी और व्यक्तिगत मार्गदर्शन की सुविधा।</p><span class="rhx-pill">कुंडली सेवा</span></div>
+    <div class="rhx-card"><h3>📅 पंचांग</h3><p>तिथि, वार, नक्षत्र, योग, करण, पर्व एवं शुभ-अशुभ समय की जानकारी के लिए समर्पित अनुभाग।</p><span class="rhx-pill">पंचांग</span></div>
+    <div class="rhx-card"><h3>📚 धार्मिक पुस्तकें</h3><p>रामायण, गीता, भागवत, पुराण, स्तोत्र, चालीसा और अन्य धार्मिक साहित्य की जानकारी।</p><span class="rhx-pill">धार्मिक ग्रंथ</span></div>
+    <div class="rhx-card"><h3>🕉️ वेद</h3><p>ऋग्वेद, यजुर्वेद, सामवेद और अथर्ववेद से संबंधित अध्ययन सामग्री व परिचय।</p><span class="rhx-pill">वेद ज्ञान</span></div>
+    <div class="rhx-card"><h3>📜 शास्त्र</h3><p>ज्योतिष, धर्मशास्त्र, कर्मकांड, संस्कार और सनातन परंपराओं से संबंधित विषय।</p><span class="rhx-pill">शास्त्र ज्ञान</span></div>
+    <div class="rhx-card"><h3>🪔 पूजा-पाठ एवं अनुष्ठान</h3><p>गृह प्रवेश, विवाह, शांति, हवन, कथा, जप, संस्कार और अन्य धार्मिक सेवाओं की बुकिंग।</p><span class="rhx-pill">पूजा सेवा</span></div>
+  </div>
+</section>
+
+<section id="rhx-kundli" class="rhx-section rhx-wrap">
+  <div class="rhx-kundli">
+    <div class="rhx-title">
+      <h2>🔮 ऑनलाइन जन्म कुंडली सेवा</h2>
+      <p>अपना जन्म विवरण भरें। यह फॉर्म आपकी जानकारी को बुकिंग/परामर्श के लिए तैयार करता है। सटीक ग्रह-गणना, लग्न, दशा आदि के लिए वास्तविक ज्योतिष गणना सेवा/API जोड़ना आवश्यक है।</p>
+    </div>
+    <form id="rhxKundliForm" class="rhx-form">
+      <label>नाम<input id="rhxName" required placeholder="अपना नाम"></label>
+      <label>जन्म तारीख<input id="rhxDob" type="date" required></label>
+      <label>जन्म समय<input id="rhxTob" type="time" required></label>
+      <label>जन्म स्थान<input id="rhxPlace" required placeholder="शहर, राज्य"></label>
+      <div style="grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <button class="rhx-btn" type="submit">📲 कुंडली सेवा के लिए भेजें</button>
+        <a class="rhx-btn alt" href="#rhx-booking">₹299 Paper Kundli</a>
+      </div>
+    </form>
+    <div class="rhx-note">नोट: वेबसाइट पर बिना प्रमाणित ज्योतिष API के ग्रहों की स्थिति या दशा को स्वतः सटीक बताना उचित नहीं है।</div>
+  </div>
+</section>
+
+<section id="rhx-panchang" class="rhx-section rhx-wrap">
+  <div class="rhx-title"><h2>📅 पंचांग एवं शुभ मुहूर्त</h2><p>दैनिक पंचांग, पर्व-त्योहार, व्रत, एकादशी, अमावस्या/पूर्णिमा और शुभ मुहूर्त के लिए अलग अनुभाग।</p></div>
+  <div class="rhx-grid">
+    <div class="rhx-card"><h3>🌞 दैनिक पंचांग</h3><p>तिथि • वार • नक्षत्र • योग • करण</p></div>
+    <div class="rhx-card"><h3>⏰ शुभ मुहूर्त</h3><p>विवाह • गृह प्रवेश • नामकरण • संस्कार</p></div>
+    <div class="rhx-card"><h3>🌙 व्रत एवं पर्व</h3><p>एकादशी • पूर्णिमा • अमावस्या • प्रमुख सनातन पर्व</p></div>
+  </div>
+</section>
+
+<section id="rhx-granth" class="rhx-section rhx-wrap">
+  <div class="rhx-title"><h2>📚 धार्मिक पुस्तकें एवं ग्रंथ</h2><p>धार्मिक अध्ययन के लिए प्रमुख ग्रंथों का व्यवस्थित संग्रह।</p></div>
+  <div class="rhx-books">
+    <div class="rhx-book"><b>श्रीमद्भगवद्गीता</b><br>ज्ञान, कर्म और भक्ति का मार्ग</div>
+    <div class="rhx-book"><b>श्रीमद्भागवत</b><br>भक्ति एवं कथा परंपरा</div>
+    <div class="rhx-book"><b>रामायण</b><br>मर्यादा और धर्म का संदेश</div>
+    <div class="rhx-book"><b>विष्णु/शिव/देवी पुराण</b><br>पुराणिक ज्ञान एवं परंपरा</div>
+    <div class="rhx-book"><b>चालीसा एवं स्तोत्र</b><br>हनुमान, शिव, दुर्गा आदि</div>
+    <div class="rhx-book"><b>कर्मकांड संग्रह</b><br>पूजा एवं संस्कार संबंधी सामग्री</div>
+  </div>
+</section>
+
+<section id="rhx-ved" class="rhx-section rhx-wrap">
+  <div class="rhx-title"><h2>🕉️ वेद ज्ञान</h2><p>चारों वेदों का परिचय और अध्ययन के लिए विषयवार प्रस्तुति।</p></div>
+  <div class="rhx-grid">
+    <div class="rhx-card"><h3>ऋग्वेद</h3><p>ऋचाओं और वैदिक स्तुतियों की परंपरा।</p></div>
+    <div class="rhx-card"><h3>यजुर्वेद</h3><p>यज्ञ एवं कर्मकांड से संबंधित वैदिक परंपरा।</p></div>
+    <div class="rhx-card"><h3>सामवेद</h3><p>गान एवं साम परंपरा से संबंधित वैदिक ज्ञान।</p></div>
+    <div class="rhx-card"><h3>अथर्ववेद</h3><p>विविध वैदिक सूक्त एवं परंपरागत विषय।</p></div>
+  </div>
+</section>
+
+<section id="rhx-shastra" class="rhx-section rhx-wrap">
+  <div class="rhx-title"><h2>📜 ज्योतिष एवं शास्त्र</h2><p>सनातन अध्ययन से जुड़े प्रमुख विषयों को सरल भाषा में व्यवस्थित करने के लिए अनुभाग।</p></div>
+  <div class="rhx-grid">
+    <div class="rhx-card"><h3>⭐ ज्योतिष शास्त्र</h3><p>राशि, नक्षत्र, ग्रह, भाव, गोचर और कुंडली अध्ययन।</p></div>
+    <div class="rhx-card"><h3>🪔 धर्मशास्त्र</h3><p>संस्कार, आचार, पर्व और धार्मिक परंपराओं की जानकारी।</p></div>
+    <div class="rhx-card"><h3>🔥 कर्मकांड</h3><p>हवन, जप, पूजा-विधि और धार्मिक अनुष्ठानों से संबंधित सामग्री।</p></div>
+    <div class="rhx-card"><h3>🙏 संस्कार</h3><p>नामकरण, अन्नप्राशन, मुंडन, विवाह आदि संस्कारों की जानकारी।</p></div>
+  </div>
+</section>
+
+<section id="rhx-booking" class="rhx-section rhx-wrap">
+  <div class="rhx-kundli">
+    <div class="rhx-title"><h2>📝 सेवा एवं बुकिंग केंद्र</h2><p>ऑनलाइन सेवा, पूजा-पाठ, ज्योतिष परामर्श, धार्मिक यात्रा और Paper Kundli के लिए संपर्क/बुकिंग।</p></div>
+    <div class="rhx-grid">
+      <div class="rhx-card"><h3>📄 Paper Kundli — ₹299</h3><p>जन्म विवरण लेकर पेपर कुंडली सेवा का ऑर्डर तैयार करें। भुगतान के बाद सेवा की पुष्टि करें।</p><span class="rhx-pill">₹299</span></div>
+      <div class="rhx-card"><h3>🔮 ज्योतिष परामर्श</h3><p>कुंडली, विवाह, करियर, शुभ मुहूर्त आदि के लिए परामर्श बुकिंग।</p></div>
+      <div class="rhx-card"><h3>🛕 पूजा एवं अनुष्ठान</h3><p>पूजा-पाठ, हवन, कथा, जप और अन्य धार्मिक सेवाओं की बुकिंग।</p></div>
+      <div class="rhx-card"><h3>🚌 धार्मिक यात्रा</h3><p>वृंदावन एवं अन्य धार्मिक स्थलों से संबंधित यात्रा सेवा/जानकारी।</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="rhx-section rhx-wrap rhx-faq">
+  <div class="rhx-title"><h2>❓ सामान्य प्रश्न</h2></div>
+  <details><summary>क्या वेबसाइट से कुंडली की जानकारी भेज सकते हैं?</summary><p>हाँ, जन्म विवरण फॉर्म से सेवा/परामर्श के लिए जानकारी तैयार की जा सकती है।</p></details>
+  <details><summary>क्या Paper Kundli ऑनलाइन मंगाई जा सकती है?</summary><p>₹299 Paper Kundli सेवा के लिए ऑर्डर और भुगतान प्रक्रिया जोड़ी जा सकती है।</p></details>
+  <details><summary>क्या पंचांग और धार्मिक ग्रंथ भी उपलब्ध होंगे?</summary><p>हाँ, वेबसाइट में पंचांग, धार्मिक पुस्तकें, वेद और शास्त्र के लिए अलग-अलग अनुभाग रखे गए हैं।</p></details>
+</section>
+
+<script>
+(function(){
+  const f=document.getElementById('rhxKundliForm');
+  if(!f) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    const n=document.getElementById('rhxName').value.trim();
+    const d=document.getElementById('rhxDob').value;
+    const t=document.getElementById('rhxTob').value;
+    const p=document.getElementById('rhxPlace').value.trim();
+    const msg=`कुंडली सेवा हेतु जानकारी:%0Aनाम: ${encodeURIComponent(n)}%0Aजन्म तारीख: ${encodeURIComponent(d)}%0Aजन्म समय: ${encodeURIComponent(t)}%0Aजन्म स्थान: ${encodeURIComponent(p)}`;
+    // Use the existing WhatsApp links already present in the original page.
+    const wa=[...document.querySelectorAll('a[href*="wa.me"],a[href*="whatsapp"]')][0];
+    if(wa && wa.href){
+      const base=wa.href.split('?')[0];
+      window.open(base+'?text='+msg,'_blank');
+    } else {
+      alert('कृपया वेबसाइट में दिए WhatsApp बटन से यह जानकारी भेजें।');
+    }
+  });
+})();
+</script>
 
 </body>
 </html>
